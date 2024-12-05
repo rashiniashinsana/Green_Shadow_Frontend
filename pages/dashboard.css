@@ -1,11 +1,9 @@
-
-
 body::before {
     content: '';
     position: absolute;
     width: 100rem;
     height: 100rem;
-    background: radial-gradient(circle, rgba(0, 125, 142, 0.57), transparent);
+    background: radial-gradient(circle, #72BF78, transparent);
     top: -30%;
     left: -20%;
     filter: blur(80px);
@@ -17,7 +15,7 @@ body::before {
     position: absolute;
     width: 100rem;
     height: 100rem;
-    background: radial-gradient(circle, rgb(114, 191, 120), transparent);
+    background: radial-gradient(circle, #A0D683, transparent);
     top: 0%;
     left: 50%;
     filter: blur(100px);
@@ -36,12 +34,12 @@ body::before {
     height: 100vh;
     overflow: hidden;
     display: flex;
-    background-color: rgb(239, 255, 234);
+    background-color: #b4ebfc;
   }
 
   .sidebar {
     width: 250px;
-    background: radial-gradient(circle, rgb(190, 225, 194), transparent);
+    background: radial-gradient(circle, #bee1c2b5, transparent);
       color: #ecf0f1;
     padding-top: 20px;
     flex-shrink: 0;
@@ -88,7 +86,7 @@ body::before {
   }
 
   .sidebar a:hover {
-    background-color: #dbedd9;
+    background-color: rgba(232, 255, 254, 0.53);
   }
 
   .content {
@@ -112,7 +110,7 @@ body::before {
     position: fixed;
     top: 0px;
     left: 0px;
-    background-color: #00000077;
+    background-color: #bee1c2b5;
     color: #ecf0f1;
     border: none;
     padding: 10px 15px;
@@ -121,6 +119,11 @@ body::before {
     border-radius: 5px;
   
   }
+ 
+  .toggle-btn:hover{
+    background-color: #658c7a9b;
+  }
+  
 
   @media (max-width: 768px) {
     .content {
@@ -132,8 +135,9 @@ div .slide-head{
       display: flex;
       align-items: center;
       justify-content: center;
-      margin-bottom: 20px;
+      margin-bottom: 0px;
       border-bottom: #ecf0f1 1px solid;
+      
  }
 
   .slide-head img{
@@ -148,14 +152,14 @@ div .slide-head{
       margin-left: 10px;
   }
  .profile{
-  margin-top: 5%;
+  margin-top: 1%;
       display: flex;
       align-items: center;
       justify-content: center;
       margin-bottom: 20px;
       border-bottom: #ecf0f1 5px solid;
-      gap: 10px;
-      padding: 10px;
+      gap: 5px;
+      padding: 5px;
   }
 
   .profile img{
@@ -166,7 +170,7 @@ div .slide-head{
  }
  a.active-link {
           color: rgb(15, 87, 6); 
-          background-color: #8de2a3;
+          background-color: #89d4b3;
       }
 /* Modal container */
 #logoutModal {
@@ -261,7 +265,7 @@ div .slide-head{
     padding: 1rem;
     max-width: 300px;
     margin: 0 auto;
-    background: radial-gradient(circle, rgba(118, 225, 125, 0.45), transparent);
+    background: radial-gradient(circle, rgba(166, 225, 118, 0.47), transparent);
     /* Optional background for better visibility */
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -276,20 +280,22 @@ div .slide-head{
 }
 
 .profile-name {
-    font-weight: 500;
+  
+    color: #000;
+    font-weight: 550;
     margin: 0.5rem 0;
 }
 
 .profile-role {
     font-size: 15px;
     margin: 0;
-    color: #555;
+    color: #515b6a;
 }
 
 .profile-designation {
     font-size: 12px;
-    margin-top: 0.25rem;
-    color: #6c757d;
+    margin-top: 1px;
+    color: #859cb0;
 }
 
 /* Responsive Adjustments */
@@ -311,5 +317,8 @@ div .slide-head{
     .profile-designation {
         font-size: 0.85rem;
     }
+
+   
 }
+
 

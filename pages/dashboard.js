@@ -21,9 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-
-
-  const logoutButton = document.getElementById("logoutButton");
+const logoutButton = document.getElementById("logoutButton");
   const logoutModal = document.getElementById("logoutModal");
   const closeModal = document.querySelector(".close");
   const confirmLogout = document.getElementById("confirmLogout");
