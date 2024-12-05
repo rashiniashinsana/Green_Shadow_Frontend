@@ -3,7 +3,7 @@ body::before {
     position: absolute;
     width: 100rem;
     height: 100rem;
-    background: radial-gradient(circle, #72BF78, transparent);
+    background: radial-gradient(circle, #8DD06C, transparent);
     top: -30%;
     left: -20%;
     filter: blur(80px);
@@ -15,7 +15,7 @@ body::before {
     position: absolute;
     width: 100rem;
     height: 100rem;
-    background: radial-gradient(circle, #A0D683, transparent);
+    background: radial-gradient(circle, #08975bbb, transparent);
     top: 0%;
     left: 50%;
     filter: blur(100px);
@@ -34,13 +34,13 @@ body::before {
     height: 100vh;
     overflow: hidden;
     display: flex;
-    background-color: #b4ebfc;
+    background-color: #96c9e99d;
   }
 
   .sidebar {
     width: 250px;
-    background: radial-gradient(circle, #bee1c2b5, transparent);
-      color: #ecf0f1;
+    background: radial-gradient(circle, #bde48a9e, transparent);
+    color: #000000;
     padding-top: 20px;
     flex-shrink: 0;
     position: fixed;
@@ -49,8 +49,9 @@ body::before {
     height: 100%;
     transition: transform 0.3s ease-in-out;
     transform: translateX(0);
-    
-  }
+    box-shadow: 4px 0 10px rgba(0, 0, 0, 0.5); /* Add box shadow */
+}
+
 
   #dashboard-link{
     margin-bottom: 12px;
@@ -170,7 +171,7 @@ div .slide-head{
  }
  a.active-link {
           color: rgb(15, 87, 6); 
-          background-color: #89d4b3;
+          background-color: #6db675b1;
       }
 /* Modal container */
 #logoutModal {
